@@ -1,0 +1,121 @@
+.h1_nom{
+    padding-top: 220px;
+}
+/*Características boton*/
+.button{
+    background-image: linear-gradient(to right, 
+    #162ba0 0%, 
+    #7281d2 50%, 
+    #162ba0 100%);
+    background-color: #2e518b;
+    border-radius: 50px;
+    color: white;
+    height:30px;
+    width:150px;
+}
+/*Características boton con el cursor encima*/
+.button:hover{
+    background-image: linear-gradient(
+        to top,
+        #7281d2 0%,
+        #162ba0 50%,
+        #7281d2 100%);
+    transition: 2s;
+}
+/*Características boton colores gradient*/      
+.btn-grad {
+    
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+  /*Contenedor principal*/
+.contenedor_main{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5%;
+    padding-top: 1%;
+    padding-left: 1%;
+    box-shadow: 4px 4px #aca9a9;
+}
+/*Contenedor izquierda*/
+.contenedor_left{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    float:left;
+}
+/*Contenedor derecha*/
+.contenedor_right{
+    width: 80%;
+    height: 20%;
+    position: relative;
+    float:right;
+}
+/*Autodimensionado del monigote*/
+.monigote{
+    max-width: 100%;
+    height: auto;
+}
+/*__________________ SLIDER ______________________*/
+
+/* Contenedor general del slider */
+.content-c{
+    width: 100px;
+    margin: auto;
+    perspective: 850px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+/* Posicionamento del slider */
+.content-slider{
+    width: 100px;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+/* Pausa la animación cuando el cursor esta encima de un elemento */
+.content-slider:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+/* Parametros de los elementos */
+.content-slider figure{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    transition: all 300ms;
+    
+}
+
+/* Posicionamiento de los elementos del slider */
+.content-slider figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-slider figure:nth-child(2){transform: rotateY(60deg) translateZ(300px);}
+.content-slider figure:nth-child(3){transform: rotateY(120deg) translateZ(300px);}
+.content-slider figure:nth-child(4){transform: rotateY(180deg) translateZ(300px);}
+.content-slider figure:nth-child(5){transform: rotateY(240deg) translateZ(300px);}
+.content-slider figure:nth-child(6){transform: rotateY(300deg) translateZ(300px);}
+.content-slider figure:nth-child(7){transform: rotateY(360deg) translateZ(300px);}
+
+/* Animación para rotar el contenedor */
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
