@@ -1,0 +1,27 @@
+th,
+td {
+    padding: 10px;
+    border: 1px solid
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    margin-top: 300px;
+}
+
+th {
+    background-color: rgb(252, 252, 236);
+}
+
+td {
+    background-color: rgb(231, 231, 76);
+}
+
+body {
+    background-image: url(../img/pin.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 70% 70%;
+}

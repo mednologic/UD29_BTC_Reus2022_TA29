@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px;
+}
+
+.superior {
+    width: 210px;
+    height: 100px;
+    position: relative;
+}
+
+.superior,
+.inferior {
+    border: solid blue 2px;
+    background-color: rgb(162, 208, 247);
+}
+
+.superior-1 {
+    background-image: url(../img/f03.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.superior-2 {
+    background-image: url(../img/f02.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.superior-3 {
+    background-image: url(../img/f01.png);
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    margin-top: 95px;
+}
+
+.medio {
+    margin-left: 40px;
+    border: solid red 5px;
+    width: 440px;
+    height: 300px;
+    background-color: rgb(162, 208, 247);
+    position: relative;
+}
+
+.medio-1 {
+    background-image: url(../img/f03.png);
+    width: 100%;
+    height: 26%;
+    position: absolute;
+}
+
+.medio-2 {
+    background-image: url(../img/f02.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 186px;
+}
+
+.medio-3 {
+    background-image: url(../img/f01.png);
+    width: 440px;
+    height: 15px;
+    position: absolute;
+    margin-top: 285px;
+}

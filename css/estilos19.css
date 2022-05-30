@@ -1,0 +1,12 @@
+table {
+    border: solid 1px;
+}
+
+td,
+th {
+    border: solid 1px;
+}
+
+.fila3 {
+    font-weight: bold;
+}

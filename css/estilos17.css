@@ -1,0 +1,123 @@
+.container {
+    background-image: url(../img/ac.jpeg);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px;
+}
+
+.container div {
+    width: 100%;
+    text-align: center;
+    height: 180px;
+    border: 1px solid;
+}
+
+#a {
+    background-image: url(../img/back_mantel.jpeg);
+    background-repeat: repeat;
+}
+
+#b2 {
+    background-image: url(../img/back_mantel.jpeg);
+    background-repeat: repeat;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 22px;
+}
+
+#b2 p {
+    margin-top: 0;
+}
+
+#c {
+    background-image: url(../img/back_mantel.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#d {
+    background-color: aliceblue;
+}
+
+#d2 {
+    background-image: url(../img/back_mantel.jpeg);
+    background-size: 100%;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 22px;
+    border: none;
+}
+
+#e {
+    background-image: url(../img/dh.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#f {
+    background-color: aliceblue;
+}
+
+#f2 {
+    background-image: url(../img/dh.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 22px;
+    border: none;
+}
+
+#g {
+    background-color: aliceblue;
+}
+
+#g2 {
+    background-image: url(../img/dh_2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    margin-top: 38px;
+    border: none;
+}
+
+#h {
+    background-color: aliceblue;
+}
+
+#h2 {
+    background-image: url(../img/dh_3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border: none;
+}
+
+#i {
+    background: rgb(175, 203, 101);
+    background: linear-gradient(90deg, rgb(175, 221, 47) 0%, rgba(78, 88, 63, 1) 70%);
+}
+
+#j {
+    background: rgb(230, 207, 188);
+    background: linear-gradient(180deg, rgba(230, 207, 188, 1) 1%, rgba(208, 85, 58, 1) 72%);
+}
+
+#k {
+    background: rgb(94, 129, 41);
+    background: linear-gradient(3deg, rgba(94, 129, 41, 1) 1%, rgba(222, 233, 206, 1) 72%);
+}
+
+#l {
+    background: rgb(94, 129, 41);
+    background: linear-gradient(20deg, rgba(94, 129, 41, 1) 1%, rgba(222, 233, 206, 0.30015756302521013) 72%);
+}

@@ -49,73 +49,22 @@
     box-shadow: 4px 4px #aca9a9;
 }
 /*Contenedor izquierda*/
-.contenedor_left{
+.contenedor_monigote{
     width: 20%;
     height: 20%;
     position: relative;
     float:left;
 }
-/*Contenedor derecha*/
-.contenedor_right{
-    width: 80%;
+.contenedor_botones{
+    margin: 5%;
+    width: 20%;
     height: 20%;
     position: relative;
-    float:right;
+    float:left;
 }
+
 /*Autodimensionado del monigote*/
 .monigote{
     max-width: 100%;
     height: auto;
-}
-/*__________________ SLIDER ______________________*/
-
-/* Contenedor general del slider */
-.content-c{
-    width: 100px;
-    margin: auto;
-    perspective: 850px;
-    position: relative;
-    margin-top: 50px;
-    
-}
-/* Posicionamento del slider */
-.content-slider{
-    width: 100px;
-    position: absolute;
-    animation: rotar 10s infinite linear;
-    transform-style: preserve-3d;
-}
-
-/* Pausa la animación cuando el cursor esta encima de un elemento */
-.content-slider:hover{
-    animation-play-state: paused;
-    cursor: pointer;
-}
-
-/* Parametros de los elementos */
-.content-slider figure{
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    position: absolute;
-    transition: all 300ms;
-    
-}
-
-/* Posicionamiento de los elementos del slider */
-.content-slider figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
-.content-slider figure:nth-child(2){transform: rotateY(60deg) translateZ(300px);}
-.content-slider figure:nth-child(3){transform: rotateY(120deg) translateZ(300px);}
-.content-slider figure:nth-child(4){transform: rotateY(180deg) translateZ(300px);}
-.content-slider figure:nth-child(5){transform: rotateY(240deg) translateZ(300px);}
-.content-slider figure:nth-child(6){transform: rotateY(300deg) translateZ(300px);}
-.content-slider figure:nth-child(7){transform: rotateY(360deg) translateZ(300px);}
-
-/* Animación para rotar el contenedor */
-@keyframes rotar{
-    from{
-        transform: rotateY(0deg);
-    }to{
-        transform: rotateY(360deg);
-    }
 }

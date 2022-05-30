@@ -1,0 +1,44 @@
+table {
+    text-align: center;
+    border: 1px solid black;
+}
+
+caption {
+    background-color: rgb(92, 165, 92);
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.fila1 th {
+    background-color: rgb(226, 168, 121);
+}
+
+.fila2 td {
+    background-color: rgb(233, 217, 78);
+}
+
+.fila3,
+.fila4,
+.fila5 {
+    background-color: rgb(241, 224, 172);
+}
+
+#duracion,
+#gestacion,
+#pelo,
+#diez,
+#dieciocho,
+#dieciseis,
+#dias58,
+#meses9,
+#año,
+#años2 {
+    background-image: url(../img/huellas.jpeg);
+}
